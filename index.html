@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soluciones_Informáticas_RV</title>
+
+  <!-- Vincula el archivo de estilos -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Fuente de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Encabezado con navegacion -->
+  <header>
+    <h1>Soluciones Informáticas RV</h1>
+    <nav>
+  <ul>
+    <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+    <li><a href="#servicios"><i class="fas fa-tools"></i> Servicios</a></li>
+    <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <main>
+
+    <!-- Inicio -->
+   <section id="inicio">
+  <div class="inicio-contenido">
+
+        <h2>Inicio</h2>
+
+    <p class="frase">
+      Bienvenidos a <strong>Soluciones Informáticas RV</strong>, tu aliado en soporte técnico y servicios IT.
+    </p>
+    <p>
+      Ofrecemos asistencia profesional para equipos, redes, software y automatización, adaptada a hogares, oficinas y empresas. Nuestro enfoque combina diagnóstico preciso, atención personalizada y soluciones eficientes para que tu infraestructura digital funcione al máximo.
+    </p>
+    <p>
+      Ya sea que necesites configurar dispositivos, resolver fallas, optimizar sistemas o implementar mejoras, estamos preparados para ayudarte con experiencia, compromiso y resultados concretos.
+    </p>
+    <div class="boton-servicios">
+      <a href="#servicios" class="boton-unico">Ver servicios</a>
+
+    </div>
+    
+  </div>
+
+
+</section>
+    <!-- Carrusel de Servicios -->
+    <section id="servicios">
+      <h2>servicios</h2>
+      <div class="carrusel">
+        <button class="prev">←</button>
+        <div class="carrusel-container">
+          <div class="card card-servicio">
+            <img src="./imagenes/Soporte_tecnico.png" alt="Soporte_tecnico"> 
+          </div>
+          <div class="card card-redes">
+            <img src="./imagenes/Automatizacion.png" alt="Automatizacion"> 
+          </div>
+          <div class="card card-redes">
+            <img src="./imagenes/Redes.png" alt="Redes"> 
+          </div>
+          <div class="card card-seguridad">
+            <img src="./imagenes/Seguridad.png" alt="Seguridad"> 
+          </div>
+          <div class="card card-instalacion_programas">
+            <img src="./imagenes/Instalacion_programas.png" alt="Instalacion_programas"> 
+          </div>
+          <div class="card card-Desarrollo_web">
+            <img src="./imagenes/Desarrollo_web.png" alt="Desarrollo_web"> 
+          </div>
+          <div class="card card-Consultoria_tecnologica">
+            <img src="./imagenes/Consultoria_tecnologica.png" alt="Consultoria_tecnologica"> 
+          </div>
+        </div>
+        <button class="next">→</button>
+      </div>
+
+      <div class="boton-contacto">
+    <a href="#contacto" class="boton-unico">Contáctanos</a>
+  </div>
+
+</section>
+
+    <!-- Reseñas con Grid -->
+    <section id="reseñas">
+      <h2>Reseñas</h2>
+      <div class="grid-reseñas">
+        <div class="reseña"><p class="texto">“Soluciones Informáticas RV configuró todos los equipos de nuestra sucursal y mejoró la conexión entre puntos de venta.”</p>
+          <p class="autor">— Lucciano’s</p></div>
+        <div class="reseña"><p class="texto">“Además de reparar el sistema, nos dejaron todo documentado y automatizaron tareas que antes hacíamos manualmente.”</p>
+          <p class="autor">— Supermercados David</p>
+        </div>
+        <div class="reseña"><p class="texto">“Muy buena atención. Me resolvieron el problema de red en menos de una hora.”</p>
+          <p class="autor">— Vanessa Monataner</p></div>
+      </div>
+    </section>
+
+    <!-- Multimedia con video -->
+    <section id="multimedia" >
+      <h2>Video Promocional</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Furmulario de contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/tu-id" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Soluciones Informáticas RV</p>
+  </footer>
+
+  <!-- Archivo script JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
