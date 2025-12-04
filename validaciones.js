@@ -33,7 +33,12 @@ form.addEventListener("submit", function (event) {
     mensajes.className = "exito";
     mensajes.innerHTML = "Envío exitoso ✅";
 
- form.submit(); // primero se envía
-setTimeout(() => form.reset(), 500); // luego se limpia, con un pequeño delay
+    form.submit(); // Enviar datos
+
+    setTimeout(() => {
+      form.reset(); // Limpiar campos
+      mensajes.className = "";
+      mensajes.innerHTML = ""; // Ocultar mensaje después de 5 segundos
+    }, 5000);
   }
 });
