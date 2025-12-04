@@ -315,10 +315,53 @@ button:hover {
    Pie de página
 ================================ */
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #222;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  font-size: 0.85rem;
+  padding: 12px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-info, .footer-menu, .footer-redes {
+  flex: 1 1 280px;
+  margin: 8px 0;
+}
+
+.footer-info h3, .footer-menu h4, .footer-redes h4 {
+  margin-bottom: 6px;
+  font-size: 1rem;
+  color: #00bcd4;
+}
+
+.footer-menu nav a,
+.footer-redes nav a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #eee;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.footer-menu nav a:hover,
+.footer-redes nav a:hover {
+  color: #00bcd4;
+}
+
+.footer-copy {
   text-align: center;
-  padding: 1rem;
+  margin-top: 8px;
+  font-size: 0.75rem;
+  color: #aaa;
+  padding: 5px 20px;
 }
 
 /* ================================
