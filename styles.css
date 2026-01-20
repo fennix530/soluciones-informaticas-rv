@@ -331,6 +331,7 @@ footer {
 }
 
 .footer-info h3, .footer-menu h4, .footer-redes h4 {
+
   margin-bottom: 6px;
   font-size: 1rem;
   color: #00bcd4;
@@ -357,6 +358,9 @@ footer {
   color: #aaa;
   padding: 5px 20px;
 }
+
+
+
 
 /* ================================
    Diseño responsivo para móviles
